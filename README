@@ -1,4 +1,11 @@
-Gerador de relatorios utilizando 
-- Python
-- Pandas 
+# Gerador de relatorios utilizando 
+
+> O Script utiliza uma planilha em Excel e gera relatorio PDF.
+
+    * Python
+    * Pandas
+    * NumPy 
+    * weasyprint
+
+Script livre para uso, logo e marca de uso exclusivo do **Condominio Machado de Assis**
 
