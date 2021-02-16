@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <style type="text/css">
+        .mysvg {
+            width: 360px;
+            height: 380px;
+            margin-top: 20px;
+            background-image: url(file:///Users/alexandredanelon/Develop/CrachaEstacionamento/logo_cracha.svg);
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        @media print {
+            footer {
+                page-break-after: always;
+            }
+        }
+    </style>
+</header>
+
+<body>
+    <table style="margin-left: 2px;">
+        <tr>
+            <td><div style="margin-right: 25px;">|</div></td>
+            <td align="left">
+                <h1 style="text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">{{ bloco }} </h1>
+            </td>
+            <td align="right">
+                <h1 style="text-align: right; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> - {{ apto }}</h1>
+            </td>
+            <td><div style="margin-left: 25px;">|</div></td>
+        </tr>
+        <tr>
+            <td><div style="margin-right: 25px;">|</div></td>
+            <td colspan="2" align="center">
+                <div class="mysvg" />
+            </td>
+            <td><div style="margin-left: 25px;">|</div></td>
+        </tr>
+        <tr>
+            <td><div style="margin-right: 25px;">|</div></td>
+            <td colspan="2" align="center">
+                <h1 style="text-align: center; font-size: 48px; margin-top: 40px; margin-bottom: 45px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <b>VAGA {{ Vaga }}</b>
+                </h1>
+            </td>
+            <td><div style="margin-left: 25px;">|</div></td>
+        </tr>
+        <tr>
+            <td><div style="margin-right: 25px;">|</div></td>
+            <td colspan="2" align="center">
+                <p style="margin-top: 40px;">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+            </td>
+            <td><div style="margin-left: 25px;">|</div></td>
+        </tr>
+    </table>
+</body>
+<footer>
+</footer>
+
+</html>
